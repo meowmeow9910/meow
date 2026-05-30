@@ -1,8 +1,11 @@
-## LIQUID HUB
+# LIQUID HUB
+Welcome to the unstoppable script, where you can find a lot of scripts and use them in just one click.
+
+## GET LOADSTRING SCRIPT
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/meowmeow9910/meow/refs/heads/main/main.lua"))()
 ```
-Welcome to the unstoppable script, where you can find a lot of scripts and use them in just one click.
+
 
 ## KEY SYSTEM
 Service: Junkie Develoment (jnkie)
