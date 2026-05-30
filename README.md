@@ -1,6 +1,11 @@
-# meow
-meowmoew arf
+## LIQUID HUB
+Welcome to the unstoppable script, where you can find a lot of scripts and use them in just one click.
 
-# LIQUID HUB
+## KEY SYSTEM
+Service: Junkie Develoment (jnkie)
 
-``` get scrip5```
+A secure and reliable key system that protects liquid hub.
+Easy key system.
+
+## DISCORD COMMUNITY
+NOT AVAILABLE
