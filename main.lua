@@ -1,5 +1,7 @@
 
 print("jnkie")
+setclipboard("https://discord.gg/jYkbeWtYsf")
+
 local ClickBindable = Instance.new("BindableEvent")
 
 ClickBindable.Event:Connect(function(ButtonText)
