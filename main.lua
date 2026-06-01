@@ -4,21 +4,25 @@ local ClickBindable = Instance.new("BindableEvent")
 
 ClickBindable.Event:Connect(function(ButtonText)
 
-    print("Clicked:", ButtonText)
-
     if ButtonText == "Copy Link" then
 
         if setclipboard then
             setclipboard("https://discord.gg/jYkbeWtYsf")
-                print("Copied!")
         end
+
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "Liquid Hub",
+            Text = "Discord invite copied to clipboard.",
+            Duration = 3
+        })
+
     end
 end)
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Liquid Hub",
-    Text = "Join our Discord server for more updates!",
-    Duration = 10,
+    Text = "Join our Discord server for updates, support, and new releases!",
+    Duration = 15,
     Callback = ClickBindable,
     Button1 = "Copy Link"
 })
