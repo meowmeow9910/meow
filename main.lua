@@ -1,22 +1,26 @@
 
 print("jnkie")
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Liquid Hub",
-    Text = "Join our Discord server!",
-    Duration = 67,
-    Button1 = "Copy Link"
-})
+local ClickBindable = Instance.new("BindableEvent")
 
-game:GetService("StarterGui").NotificationClicked:Connect(function(Text, Button)
+ClickBindable.Event:Connect(function(ButtonText)
 
-    if Button == "Copy Link" then
+    print("Clicked:", ButtonText)
+
+    if ButtonText == "Copy Link" then
 
         if setclipboard then
             setclipboard("https://discord.gg/jYkbeWtYsf")
                 print("Copied!")
         end
-
     end
-
 end)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Liquid Hub",
+    Text = "Join our Discord server for more updates!",
+    Duration = 10,
+    Callback = ClickBindable,
+    Button1 = "Copy Link"
+})
+
 loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/4fb150aae19cf4e71e8033c2b096f606cb82ef5f94982f4e06910779d65633a4/download"))()
