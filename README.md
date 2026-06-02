@@ -1,7 +1,7 @@
 # LIQUID HUB
 Welcome to the unstoppable script, where you can find a lot of scripts and use them in just one click.
 
-## GET LOADSTRING SCRIPT
+### GET LOADSTRING SCRIPT:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/meowmeow9910/meow/refs/heads/main/main.lua"))()
 ```
@@ -15,3 +15,17 @@ Easy key system.
 
 ## DISCORD COMMUNITY
 NOT AVAILABLE
+
+# APEX OT
+Welcome to the Brookhaven-based script, where you can find a lot of cool function that works in Brookhaven RP game.
+
+### GET LOADSTRING SCRIPT:
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/meowmeow9910/meow/refs/heads/main/apex/apex.lua"))()
+```
+
+### KEY SYSTEM 
+This is KEYLESS.
+
+### DISCORD COMMUNITY 
+N/A
