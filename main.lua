@@ -1,5 +1,18 @@
 
 print("jnkie")
+
+
+
+
+
+
+
+
+print("jnkie")
+
+
+
+print("Premium:", JD_IS_PREMIUM)
 setclipboard("https://discord.gg/jYkbeWtYsf")
 
 local ClickBindable = Instance.new("BindableEvent")
@@ -29,4 +42,20 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Button1 = "Copy Link"
 })
 
+getgenv().Key = "User"
+
+if JD_IS_PREMIUM == true then
+    getgenv().Key = "Premium"
+end
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "Liquid Hub",
+            Text = "Loading Key System",
+            Duration = 3
+        })
+
+
+
+
 loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/4fb150aae19cf4e71e8033c2b096f606cb82ef5f94982f4e06910779d65633a4/download"))()
+
